@@ -1,8 +1,8 @@
 streamlit
-torch
-torchvision
-torchaudio
-transformers
+torch==2.2.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torchvision==0.17.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torchaudio==2.2.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+transformers==4.36.2
 pillow
 requests
 numpy
