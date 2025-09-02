@@ -1,8 +1,26 @@
-streamlit
-torch==2.8.0
-torchvision==0.23.0
-torchaudio==2.8.0
-transformers==4.56.0
-pillow
-requests
-numpy
+# Core Dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+ 
+# CLIP Model
+git+https://github.com/openai/CLIP.git
+ 
+# Image Processing
+Pillow>=10.0.0
+ 
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+ 
+# HTTP Requests
+requests>=2.31.0
+ 
+# Optional: GPU Support (uncomment if using CUDA)
+# torch>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchvision>=0.15.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+ 
+# Development Dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0\
